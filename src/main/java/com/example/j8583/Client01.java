@@ -28,6 +28,8 @@ public class Client01 implements Runnable {
     private static MessageFactory mfact;
     private static ConcurrentHashMap<String, IsoMessage> pending = new ConcurrentHashMap<String, IsoMessage>();
 
+
+
     private Socket sock;
     private boolean done = false;
 
